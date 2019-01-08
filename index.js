@@ -11,14 +11,14 @@ app.set('view engine', 'ejs');
 
 let mapData = {
     apiKey: '',
-    mapCentre: 'London,UK',
+    mapCentre: '',
     mapHeight: 300,
     mapWidth: 600,
     mapZoom: 14,
     mapType: 'roadmap',
     mapMarker: {
         color: '0xff0000',
-        label: 'London, UK'
+        label: ''
     }
 };
 
